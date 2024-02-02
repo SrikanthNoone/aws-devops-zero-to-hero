@@ -2,6 +2,11 @@
 
 AWS (Amazon Web Services) provides multiple layers of security to protect resources and data within its cloud infrastructure. Two important components for network security in AWS are Security Groups and Network Access Control Lists (NACLs). Let's explore how each of them works:
 
+
+
+
+
+
     Security Groups:
         Security Groups act as virtual firewalls for Amazon EC2 instances (virtual servers) at the instance level. They control inbound and outbound traffic by allowing or denying specific protocols, ports, and IP addresses.
         Each EC2 instance can be associated with one or more security groups, and each security group consists of inbound and outbound rules.
